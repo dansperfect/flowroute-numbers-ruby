@@ -1,7 +1,7 @@
 # This file was automatically generated for flowroute by APIMATIC BETA v2.0 on 02/13/2016
 
 module FlowrouteNumbers
-  class PurchasablePhoneNumbersController
+  class PurchasablePhoneNumbersController < ApplicationController
 
     # Retrieves a list of the NPA-NXXs (area codes and exchanges) that contain purchasable telephone numbers.
     # @param [Numeric] limit Optional parameter: Number of items to display (Max 200)

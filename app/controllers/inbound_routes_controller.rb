@@ -1,7 +1,7 @@
 # This file was automatically generated for flowroute by APIMATIC BETA v2.0 on 02/13/2016
 
 module FlowrouteNumbers
-  class InboundRoutesController
+  class InboundRoutesController < ApplicationController
 
     # TODO: type endpoint description here
     # @param [Numeric] limit Optional parameter: Number of items to display (max 200)

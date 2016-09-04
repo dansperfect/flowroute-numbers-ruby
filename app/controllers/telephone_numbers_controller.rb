@@ -1,7 +1,7 @@
 # This file was automatically generated for flowroute by APIMATIC BETA v2.0 on 02/13/2016
 
 module FlowrouteNumbers
-  class TelephoneNumbersController
+  class TelephoneNumbersController < ApplicationController
 
     # Returns the routing and billing information for the specified telephone number on your account
     # @param [String] telephone_number Required parameter: This is the TN for which you would like to retrieve configuration details for
